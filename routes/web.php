@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $nav = config('db.menu');
-    return view('comics', compact('nav'));
+    $comics = config('db.comics');
+    $icons = config('db.icons');
+    return view('comics', compact('nav', 'comics', 'icons'));
 })->name('comics_page');

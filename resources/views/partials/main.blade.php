@@ -7,9 +7,11 @@
     <section class="main-content">
         <div class="mycontainer">
             <div class="myrow">
-                <div class="mycol-sm">
-                    @include('partials.subPartials.cardMain')
-                </div>
+                @foreach ($comics as $item)   
+                    <div class="mycol-sm">
+                        @include('partials.subPartials.cardMain')
+                    </div>
+                @endforeach
             </div>
             <div class="button">
                 <button>LOAD MORE</button>
@@ -19,14 +21,16 @@
     <section class="icon-services">
         <div class="mycontainer">
             <div class="myrow">
-                <div class="mycol-sm">
-                    <div class="mycard">
-                        <img src="value.url" alt="value.title">
-                        <div>
-                            <span></span>
+                @foreach ($icons as $item)
+                    <div class="mycol-sm">
+                        <div class="mycard">
+                            <img src="{{ $item['url'] }}" alt="{{ $item['title'] }}">
+                            <div>
+                                <span>{{ $item['title'] }}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

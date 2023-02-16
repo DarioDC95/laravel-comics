@@ -1,6 +1,6 @@
 <div class="mycard">
     <div class="container-img">
-        <img src="image" alt="serie">
+        <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
     </div>
-    <h4></h4>
+    <h6>{{ $item['title'] }}</h6>
 </div>

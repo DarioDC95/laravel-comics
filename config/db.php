@@ -222,7 +222,7 @@ return [
         ],
         [
             "label" => 'COMICS',
-            "url" => '#'
+            "url" => 'comics_page'
         ],
         [
             "label" => 'MOVIES',
@@ -260,23 +260,23 @@ return [
 
     'icons' => [
         [
-            'url' => '/src/assets/img/buy-comics-digital-comics.png',
+            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-digital-comics.png',
             'title' => 'DIGITAL COMICS',
         ],
         [
-            'url' => '/src/assets/img/buy-comics-merchandise.png',
+            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-merchandise.png',
             'title' => 'DC MERCHANDISE',
         ],
         [
-            'url' => '/src/assets/img/buy-comics-subscriptions.png',
+            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-subscriptions.png',
             'title' => 'SUBSCRIPTION',
         ],
         [
-            'url' => '/src/assets/img/buy-comics-shop-locator.png',
+            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-shop-locator.png',
             'title' => 'COMIC SHOP LOCATOR',
         ],
         [
-            'url' => '/src/assets/img/buy-dc-power-visa.svg',
+            'url' => 'http://[::1]:5173/resources/img/images/buy-dc-power-visa.svg',
             'title' => 'DC POWER VISA',
         ]
     ]
