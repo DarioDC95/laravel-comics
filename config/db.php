@@ -214,6 +214,7 @@ return [
             ],
         ],
     ],
+
     'menu' => [
         [
             "label" => 'CHARACTERS',
@@ -221,7 +222,7 @@ return [
         ],
         [
             "label" => 'COMICS',
-            "url" => 'resources/views/comics.blade.php'
+            "url" => '#'
         ],
         [
             "label" => 'MOVIES',
@@ -256,4 +257,27 @@ return [
             "url" => '#'
         ]
     ],
+
+    'icons' => [
+        [
+            'url' => '/src/assets/img/buy-comics-digital-comics.png',
+            'title' => 'DIGITAL COMICS',
+        ],
+        [
+            'url' => '/src/assets/img/buy-comics-merchandise.png',
+            'title' => 'DC MERCHANDISE',
+        ],
+        [
+            'url' => '/src/assets/img/buy-comics-subscriptions.png',
+            'title' => 'SUBSCRIPTION',
+        ],
+        [
+            'url' => '/src/assets/img/buy-comics-shop-locator.png',
+            'title' => 'COMIC SHOP LOCATOR',
+        ],
+        [
+            'url' => '/src/assets/img/buy-dc-power-visa.svg',
+            'title' => 'DC POWER VISA',
+        ]
+    ]
 ];

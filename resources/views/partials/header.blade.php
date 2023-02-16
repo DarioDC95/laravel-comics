@@ -8,8 +8,8 @@
                 <nav>
                     <ul>
                         @foreach ($nav as $item)
-                            <li>
-                                <a class="underline-none" href=" {{ $item['url'] }}">{{ $item['label'] }}</a>
+                            <li class="{{ Route::currentRouteName() == 'comics_page' ? 'active-select' : ''}}">
+                                <a class="underline-none" href="{{ $item['url'] }}">{{ $item['label'] }}</a>
                             </li>
                         @endforeach
                     </ul>
