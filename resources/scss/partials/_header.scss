@@ -1,0 +1,63 @@
+@use 'variables' as *;
+@use 'mixins'as *;
+
+header {
+    background-color: white;
+
+    .mycontainer {
+        @include container-mix;
+    
+        .myrow {
+            display: flex;
+
+            .mycol-md {
+                width: 40%;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 80px;
+                }
+            }
+
+            .mycol-lg {
+                width: 60%;
+
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        padding: 50px 0;
+                        font-size: 12px;
+                        font-weight: 600;
+
+                        &:hover {
+                            padding-bottom: 45px 0;
+                            border-bottom: 5px solid $color-link_active-hover;
+                        }
+
+                        a {
+                            color: black;
+                            padding: 50px 0;
+
+                            &:hover {
+                                color: $color-link_active-hover;
+                            }
+                        }
+                    }
+
+                    li.active-select {
+                        padding-bottom: 45px 0;
+                        border-bottom: 5px solid $color-link_active-hover;
+
+                        a {
+                            color: $color-link_active-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

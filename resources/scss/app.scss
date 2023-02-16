@@ -1,1 +1,25 @@
-@import '~bootstrap/scss/bootstrap'
+@use 'partials/_header.scss' as *;
+@use 'partials/_footer.scss' as *;
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.margin-right-xs {
+    margin-right: 20px;
+}
+
+.underline-none {
+    text-decoration-line: none;
+}
+
+ul {
+    margin-bottom: 0px;
+}
