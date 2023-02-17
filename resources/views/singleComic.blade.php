@@ -1,5 +1,5 @@
 @extends('layouts.App')
 
 @section('content')
-    @include('partials.mainComics')
+    @include('partials.mainSingleComic')
 @endsection

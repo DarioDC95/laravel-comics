@@ -1,9 +1,9 @@
 @use 'variables' as *;
 @use 'mixins'as *;
 
-main {
+.main-comics {
     font-weight: 600;
-    color: white;
+    color: $color-white;
     background-color: $bg-black;
 
     .jumbotron {
@@ -41,6 +41,10 @@ main {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+
+                a {
+                    color: $color-white;
+                }
 
                 .mycard {
                     width: 180px;

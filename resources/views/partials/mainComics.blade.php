@@ -1,4 +1,4 @@
-<main>
+<main class="main-comics">
     <section class="jumbotron">
         <div class="mycontainer">
             <div class="current-series">CURRENT SERIES</div>
@@ -7,9 +7,11 @@
     <section class="main-content">
         <div class="mycontainer">
             <div class="myrow">
-                @foreach ($comics as $item)   
+                @foreach ($comics as $key => $item)   
                     <div class="mycol-sm">
-                        @include('partials.subPartials.cardMain')
+                        <a class="underline-none" href="{{ route('single_comic', ['index' => $key]) }}">
+                            @include('partials.subPartials.cardMainComics')
+                        </a>
                     </div>
                 @endforeach
             </div>

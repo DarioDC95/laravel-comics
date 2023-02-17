@@ -1,0 +1,63 @@
+@use 'variables' as *;
+@use 'mixins'as *;
+
+.main-singleComic {
+
+    .mycontainer {
+        max-width: 980px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .jumbotron-part {
+
+        .jumbotron {
+            height: 400px;
+            background-image: url('../img/images/jumbotron.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+            .mycontainer {
+                position: relative;
+    
+                .current-series {
+                    border: 2px solid $color-white;
+                    position: absolute;
+                    bottom: -50px;
+                }
+            }
+        }
+    
+        .bottom-strap {
+            background-color: $bg-icon-services;
+            height: 70px;
+            width: 100%;
+        }
+    }
+
+    .description-top {
+        margin-top: 50px;
+
+        .price {
+            color: $color-lightgreen;
+            background-color: $bg-green;
+            padding: 15px 30px;
+            flex-grow: 1;
+
+            span {
+                color: $color-white;
+            }
+        }
+
+        .availability {
+            color: $color-white;
+            padding: 15px 30px;
+            background-color: $bg-green;
+            border-left: 1px solid black;
+        }
+
+        .advertisement {
+            margin-top: -15px;
+        }
+    }
+}

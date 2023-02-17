@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use PhpParser\Builder\Use_;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     $nav = config('db.menu');
     $comics = config('db.comics');
     $icons = config('db.icons');
     return view('comics', compact('nav', 'comics', 'icons'));
 })->name('comics_page');
+
+Route::get('/singleComic/{index}', function($index) {
+    $nav = config('db.menu');
+    $comics = config('db.comics');
+
+    $singleComic = $comics[$index];
+
+    return view('singleComic', compact('nav', 'singleComic'));
+})->name('single_comic');

@@ -9,9 +9,10 @@ header {
     
         .myrow {
             display: flex;
+            justify-content: space-between;
+            width: 100%;
 
             .mycol-md {
-                width: 40%;
                 display: flex;
                 align-items: center;
 
@@ -21,7 +22,6 @@ header {
             }
 
             .mycol-lg {
-                width: 60%;
 
                 ul {
                     list-style-type: none;
@@ -29,12 +29,14 @@ header {
                     justify-content: space-between;
 
                     li {
-                        padding: 50px 0;
+                        margin: 0 15px;
+                        padding-top: 50px;
+                        padding-bottom: 45px;
+                        border-bottom: 5px solid $color-white;
                         font-size: 12px;
                         font-weight: 600;
 
                         &:hover {
-                            padding-bottom: 45px 0;
                             border-bottom: 5px solid $color-link_active-hover;
                         }
 
