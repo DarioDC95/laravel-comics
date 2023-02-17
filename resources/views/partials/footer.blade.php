@@ -1,5 +1,5 @@
 <footer>
-    <section style="background-image: url({{Vite::asset('resources/img/images/footer-bg.jpg')}})" class="footer-links">
+    <section class="footer-links">
         <div class="mycontainer">
             <div class="myrow">
                 <div class="mycol-lg">

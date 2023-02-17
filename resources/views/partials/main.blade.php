@@ -1,5 +1,5 @@
 <main>
-    <section style="background-image: url({{Vite::asset('resources/img/images/jumbotron.jpg')}})" class="jumbotron">
+    <section class="jumbotron">
         <div class="mycontainer">
             <div class="current-series">CURRENT SERIES</div>
         </div>
