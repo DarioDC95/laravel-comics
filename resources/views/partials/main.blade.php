@@ -24,7 +24,7 @@
                 @foreach ($icons as $item)
                     <div class="mycol-sm">
                         <div class="mycard">
-                            <img src="{{ $item['url'] }}" alt="{{ $item['title'] }}">
+                            <img src="{{ Vite::asset($item['url']) }}" alt="{{ $item['title'] }}">
                             <div>
                                 <span>{{ $item['title'] }}</span>
                             </div>

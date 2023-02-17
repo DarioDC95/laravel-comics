@@ -9,7 +9,7 @@
                     <ul>
                         @foreach ($nav as $item)
                             <li class="{{ Route::currentRouteName() == $item['url'] ? 'active-select' : ''}}">
-                                <a class="underline-none" href="{{ $item['url'] }}">{{ $item['label'] }}</a>
+                                <a class="underline-none" href="{{ route::has($item['url']) ? route($item['url']) : '' }}">{{ $item['label'] }}</a>
                             </li>
                         @endforeach
                     </ul>

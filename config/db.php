@@ -260,23 +260,23 @@ return [
 
     'icons' => [
         [
-            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-digital-comics.png',
+            'url' => 'resources/img/images/buy-comics-digital-comics.png',
             'title' => 'DIGITAL COMICS',
         ],
         [
-            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-merchandise.png',
+            'url' => 'resources/img/images/buy-comics-merchandise.png',
             'title' => 'DC MERCHANDISE',
         ],
         [
-            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-subscriptions.png',
+            'url' => 'resources/img/images/buy-comics-subscriptions.png',
             'title' => 'SUBSCRIPTION',
         ],
         [
-            'url' => 'http://[::1]:5173/resources/img/images/buy-comics-shop-locator.png',
+            'url' => 'resources/img/images/buy-comics-shop-locator.png',
             'title' => 'COMIC SHOP LOCATOR',
         ],
         [
-            'url' => 'http://[::1]:5173/resources/img/images/buy-dc-power-visa.svg',
+            'url' => 'resources/img/images/buy-dc-power-visa.svg',
             'title' => 'DC POWER VISA',
         ]
     ]
