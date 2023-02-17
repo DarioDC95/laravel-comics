@@ -22,7 +22,7 @@
                     <div class="col-8">
                         <div class="mycard">
                             <h2 class="text-uppercase">{{ $singleComic['title'] }}</h2>
-                            <div class="d-flex w-100">
+                            <div class="d-flex w-100 mb-3">
                                 <div class="price d-flex justify-content-between">
                                     <p class="m-0 fw-bold">U.S. Price: <span>{{ $singleComic['price'] }}</span></p>
                                     <p class="fw-bold m-0">AVAILABLE</p>
