@@ -24,13 +24,14 @@
                 .top-label, .bottom-label {
                     position: absolute;
                     background-color: $bg-violet;
+                    font-size: 13px;
                 }
 
                 .top-label {
                     display: inline-block;
                     top: 0;
                     left: 0;
-                    padding: 0 3px;
+                    padding: 0 8px;
                 }
 
                 .bottom-label {

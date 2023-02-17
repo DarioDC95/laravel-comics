@@ -4,102 +4,108 @@
             <div class="myrow">
                 <div class="mycol-lg">
                     <div class="mycard">
-                        <div class="margin-right-xs">
-                            <div class="dc-comics">
-                                <div class="title">DC COMICS</div>
+                        <div class="d-flex justify-content-start mb-3">
+                            <div class="margin-right-xs">
+                                <div class="dc-comics">
+                                    <div class="title">DC COMICS</div>
+                                    <ul>
+                                        <li>
+                                            <a class="underline-none" href="#">Characters</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">Comics</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">Movies</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">TV</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">Games</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">Videos</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">News</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="title">SHOP</div>
+                                    <ul>
+                                        <li>
+                                            <a class="underline-none" href="#">Shop DC</a>
+                                        </li>
+                                        <li>
+                                            <a class="underline-none" href="#">Shop DC Collectibles</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="margin-right-xs">
+                                <div class="title">DC</div>
                                 <ul>
                                     <li>
-                                        <a class="underline-none" href="#">Characters</a>
+                                        <a class="underline-none" href="#">Terms Of Use</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">Comics</a>
+                                        <a class="underline-none" href="#">Privacy policy (New)</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">Movies</a>
+                                        <a class="underline-none" href="#">Ad Choices</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">TV</a>
+                                        <a class="underline-none" href="#">Advertising</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">Games</a>
+                                        <a class="underline-none" href="#">Jobs</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">Videos</a>
+                                        <a class="underline-none" href="#">Subscriptions</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">News</a>
+                                        <a class="underline-none" href="#">Talent Workshops</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">CPSC Certificates</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">Ratings</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">Shop Help</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <div class="title">SHOP</div>
+                                <div class="title">SITES</div>
                                 <ul>
                                     <li>
-                                        <a class="underline-none" href="#">Shop DC</a>
+                                        <a class="underline-none" href="#">DC</a>
                                     </li>
                                     <li>
-                                        <a class="underline-none" href="#">Shop DC Collectibles</a>
+                                        <a class="underline-none" href="#">MAD Magazine</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">DC Kids</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">DC Universe</a>
+                                    </li>
+                                    <li>
+                                        <a class="underline-none" href="#">DC Power Visa</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="margin-right-xs">
-                            <div class="title">DC</div>
-                            <ul>
-                                <li>
-                                    <a class="underline-none" href="#">Terms Of Use</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Privacy policy (New)</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Ad Choices</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Advertising</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Jobs</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Subscriptions</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Talent Workshops</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">CPSC Certificates</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Ratings</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Shop Help</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="title">SITES</div>
-                            <ul>
-                                <li>
-                                    <a class="underline-none" href="#">DC</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">MAD Magazine</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">DC Kids</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">DC Universe</a>
-                                </li>
-                                <li>
-                                    <a class="underline-none" href="#">DC Power Visa</a>
-                                </li>
-                            </ul>
+                        <div class="privacy-rights">
+                            <p class="m-0">All site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a class="underline-none" href="">noted here</a>. All rigths reserved.</p>
+                            <a class="underline-none" href="">Cookies Settings</a>
                         </div>
                     </div>
                 </div>

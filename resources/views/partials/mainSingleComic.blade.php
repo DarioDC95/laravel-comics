@@ -8,8 +8,8 @@
                         <div class="current-series">
                             <div class="position-relative">
                                 <img src="{{ $singleComic['thumb'] }}" alt="{{ $singleComic['title'] }}">
-                                <div class="top-label fw-semibold text-uppercase">{{ $singleComic['type'] }}</div>
-                                <div class="bottom-label w-100 text-center fw-semibold">VIEW GALLERY</div>
+                                <div class="top-label text-uppercase">{{ $singleComic['type'] }}</div>
+                                <div class="bottom-label w-100 text-center">VIEW GALLERY</div>
                             </div>
                         </div>
                     </div>
