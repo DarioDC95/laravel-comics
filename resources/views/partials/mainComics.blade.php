@@ -9,7 +9,7 @@
                     </div>
                 </div>
             </div>
-            <div class="myrow">
+            <div class="myrow px-4">
                 @foreach ($comics as $key => $item)   
                     <div class="mycol-sm">
                         <a class="underline-none" href="{{ route('single_comic', ['index' => $key]) }}">
