@@ -18,7 +18,24 @@
             .current-series {
                 border: 2px solid $color-white;
                 position: absolute;
+                color: $color-white;
                 bottom: -50px;
+
+                .top-label, .bottom-label {
+                    position: absolute;
+                    background-color: $bg-violet;
+                }
+
+                .top-label {
+                    display: inline-block;
+                    top: 0;
+                    left: 0;
+                    padding: 0 3px;
+                }
+
+                .bottom-label {
+                    bottom: 0;
+                }
             }
         }
     
