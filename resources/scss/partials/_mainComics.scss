@@ -11,53 +11,53 @@
         background-image: url('../img/images/jumbotron.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-
-        .mycontainer {
-            @include container-mix;
-            height: 100%;
-            position: relative;
-
-            .current-series {
-                background-color: $bg-icon-services;
-                display: inline-block;
-                padding: 10px 30px;
-                font-size: 20px;
-                position: absolute;
-                bottom: 0;
-                transform: translateY(50%);
-            }
-        }
     }
 
     .main-content {
-        padding-top: 50px;
         padding-bottom: 20px;
 
         .mycontainer {
             @include container-mix;
-            padding: 0 20px;
 
             .myrow {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+                width: 100%;
 
-                a {
-                    color: $color-white;
+                .mycol {
+
+                    .current-series {
+                        background-color: $bg-icon-services;
+                        display: inline-block;
+                        white-space: nowrap;
+                        padding: 10px 30px;
+                        font-size: 20px;
+                        transform: translateY(-50%);
+                        margin-bottom: 25px;
+                        margin-left: -20px;
+                    }
                 }
 
-                .mycard {
-                    width: 180px;
-                    margin-bottom: 40px;
-                    text-transform: uppercase;
-                
-                    .container-img {
-                        margin-bottom: 20px;
-                        height: 180px;
-                        overflow: hidden;
-                
-                        img {
-                            display: block;
+                .mycol-sm {
+
+                    a {
+                        color: $color-white;
+                    }
+    
+                    .mycard {
+                        width: 180px;
+                        margin-bottom: 40px;
+                        text-transform: uppercase;
+                    
+                        .container-img {
+                            margin-bottom: 20px;
+                            height: 180px;
+                            overflow: hidden;
+                    
+                            img {
+                                display: block;
+                            }
                         }
                     }
                 }

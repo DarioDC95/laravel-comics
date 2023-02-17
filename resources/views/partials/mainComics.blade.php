@@ -1,11 +1,14 @@
 <main class="main-comics">
-    <section class="jumbotron">
-        <div class="mycontainer">
-            <div class="current-series">CURRENT SERIES</div>
-        </div>
-    </section>
+    @include('partials.subPartials.jumbotron')
     <section class="main-content">
         <div class="mycontainer">
+            <div class="myrow">
+                <div class="mycol">
+                    <div class="mycard">
+                        <div class="current-series">CURRENT SERIES</div>
+                    </div>
+                </div>
+            </div>
             <div class="myrow">
                 @foreach ($comics as $key => $item)   
                     <div class="mycol-sm">

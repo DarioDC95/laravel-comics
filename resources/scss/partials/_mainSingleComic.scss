@@ -3,28 +3,29 @@
 
 .main-singleComic {
 
+    .jumbotron {
+        height: 400px;
+        background-image: url('../img/images/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+
     .mycontainer {
         max-width: 980px;
         margin: 0 auto;
+        padding: 0 10px;
         height: 100%;
     }
 
     .jumbotron-part {
+    
+        .mycontainer {
+            position: relative;
 
-        .jumbotron {
-            height: 400px;
-            background-image: url('../img/images/jumbotron.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-    
-            .mycontainer {
-                position: relative;
-    
-                .current-series {
-                    border: 2px solid $color-white;
-                    position: absolute;
-                    bottom: -50px;
-                }
+            .current-series {
+                border: 2px solid $color-white;
+                position: absolute;
+                bottom: -50px;
             }
         }
     

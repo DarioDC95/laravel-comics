@@ -1,13 +1,12 @@
 <main class="main-singleComic">
+    @include('partials.subPartials.jumbotron')
     <section class="jumbotron-part">
-        <div class="jumbotron">
-            <div class="mycontainer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <div class="current-series">
-                                <img src="{{ $singleComic['thumb'] }}" alt="{{ $singleComic['title'] }}">
-                            </div>
+        <div class="mycontainer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="current-series">
+                            <img src="{{ $singleComic['thumb'] }}" alt="{{ $singleComic['title'] }}">
                         </div>
                     </div>
                 </div>
