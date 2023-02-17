@@ -82,4 +82,24 @@
             }
         }
     }
+
+    .icons-bottom {
+        background-color: $bg-whitesmoke;
+        font-size: 12px;
+        color: $color-grey;
+
+        .mycard {
+            padding: 15px 20px;
+
+            .img {
+                min-width: 20%;
+
+                img {
+                    filter: invert(40%);
+                    max-width: none;
+                    height: 50px;
+                }
+            }
+        }
+    }
 }

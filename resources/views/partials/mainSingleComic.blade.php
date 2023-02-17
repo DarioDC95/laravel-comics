@@ -84,4 +84,44 @@
             </div>
         </div>
     </section>
+    <section class="icons-bottom border-top">
+        <div class="mycontainer">
+            <div class="container-fluid">
+                <div class="row gx-0">
+                    <div class="col-3 border-start border-end">
+                        <div class="mycard d-flex justify-content-between">
+                            <div class="fw-bold">{{ $icons[0]['title'] }}</div>
+                            <div class="img">
+                                <img src="{{ Vite::asset($icons[0]['url']) }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 border-start border-end">
+                        <div class="mycard d-flex justify-content-between">
+                            <div class="fw-bold">{{ $icons[2]['title'] }}</div>
+                            <div class="img">
+                                <img src="{{ Vite::asset($icons[2]['url']) }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 border-start border-end">
+                        <div class="mycard d-flex justify-content-between">
+                            <div class="fw-bold">{{ $icons[3]['title'] }}</div>
+                            <div class="img">
+                                <img src="{{ Vite::asset($icons[3]['url']) }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 border-start border-end">
+                        <div class="mycard d-flex justify-content-between">
+                            <div class="fw-bold">{{ $icons[1]['title'] }}</div>
+                            <div class="img">
+                                <img src="{{ Vite::asset($icons[1]['url']) }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
