@@ -60,4 +60,26 @@
             margin-top: -15px;
         }
     }
+
+    .features-middle {
+        margin-top: 50px;
+        padding-bottom: 100px;
+        background-color: $bg-whitesmoke;
+
+        .description {
+            font-size: 14px;
+
+            .mykey {
+                width: 40%;
+            }
+            .myvalue {
+                width: 60%;
+                color: $color-blue;
+
+                &.black {
+                    color: black;
+                }
+            }
+        }
+    }
 }
